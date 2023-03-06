@@ -1,0 +1,15 @@
+exercicio1---
+
+1 ler a primeira variavel (valor 1)
+2 ler a segunda variavel (valor 2)
+3 if valor1>valor2, então escreva (o valor1 é maior)
+  else escreva (o valor 2 é maior)
+
+  exercicio2--
+  
+  1 ano em que a pessoa nasceu
+  2 verificar se ela tem mais de 16
+  3 caso nao tiver nao podera votar
+
+  exercicio3--
+  1
