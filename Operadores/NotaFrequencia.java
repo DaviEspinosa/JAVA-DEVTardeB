@@ -6,7 +6,7 @@ public class NotaFrequencia {
 
     Scanner sc = new Scanner(System.in);
 
-    public void calcular() {
+    public void exercicio7() {
         System.out.println("Informe a nota 1 do aluno:");
         int nota1 = sc.nextInt();
         System.out.println("Informe a nota 2 do aluno:");

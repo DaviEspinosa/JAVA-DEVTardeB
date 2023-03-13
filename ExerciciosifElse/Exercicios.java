@@ -46,7 +46,63 @@ public class Exercicios {
 
     public void exercicio4() {
         System.out.println("Número de maças que deseja comprar:");
+        double macaPêga = sc.nextDouble();
+        if (macaPêga >= 12) {
+            double total = macaPêga* 0.25;
+            System.out.println("O valor que você pagará será de: " + total);
+        } else {
+            double total = macaPêga* 0.30;
+            System.out.println("O valor que você pagará será de :" + total);
+        }
 
-        
     }
+
+    public void exercicio5() {
+        System.out.println("Insira um valor:");
+        int v1 = sc.nextInt();
+        System.out.println("Insira um segundo valor:");
+        int v2 = sc.nextInt();
+        System.out.println("Insira um terceiro valor:");
+        int v3 = sc.nextInt();
+
+        if (v1 > v2 && v1 > v3 && v2 > v3) {
+            System.out.println("Ordem crescente: " + v3 + "," + v2 + "," + v1);
+
+        } else if (v2 > v1 && v2 > v3 && v1 > v3) {
+            System.out.println("Ordem crescente: " + v3 + "," + v1 + "," + v2);
+
+        } else if (v3 > v1 && v3 > v2 && v2 > v1) {
+            System.out.println("Ordem crescente: " + v1 + "," + v2 + "," + v3);
+
+        } else if (v1 > v3 && v1 > v2 && v3 > v2) {
+            System.out.println("Ordem crescente: " + v2 + "," + v3 + "," + v1);
+
+        } else if (v2 > v3 & v2 > v1 & v3 > v1) {
+            System.out.println("Ordem crescente: " + v1 + "," + v3 + "," + v2);
+
+        } else if (v3 > v2 & v3 > v1 & v1 > v2) {
+            System.out.println("Ordem crescente: " + v2 + "," + v1 + "," + v3);
+
+        }
+    }
+
+    public void exercicio6() {
+        System.out.println("Insira seu sexo: 1:feminio/2:masculino");
+        double sexo = sc.nextDouble();
+
+        System.out.println("Insira sua altura: (em metros)");
+        double altura = sc.nextDouble();
+
+        if (sexo == 2) {
+            System.out.println("O seu peso seria de:" + ((72.7 * altura) - 58) + "kg");
+
+        }
+        else {
+            System.out.println("O seu peso seria de:" + ((62.1 * altura) - 44.7) + "kg");
+        } 
+
+    }
+    
+
 }
+    
